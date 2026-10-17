@@ -1,0 +1,13 @@
+fastapi>=0.110
+uvicorn>=0.29
+pydantic>=2.6
+pillow>=10.2
+numpy>=1.26
+python-multipart>=0.0.9
+# Scale toolchain: torch/MPS trainer, video import, real ONNX/CoreML export.
+# The app runs without these (numpy fallback + honest stubs), install for full power.
+torch>=2.2
+imageio>=2.34
+imageio-ffmpeg>=0.4
+onnx>=1.16
+coremltools>=7.1

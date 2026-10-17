@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" font-family="-apple-system, 'Segoe UI', sans-serif">
+  <rect width="760" height="300" rx="12" fill="#101613"/>
+  <text x="24" y="34" fill="#e8efe9" font-size="16" font-weight="700">VisionForge — local-first training loop</text>
+  <g font-size="13">
+    <rect x="24" y="56" width="160" height="72" rx="8" fill="#1c2620" stroke="#2c3b32"/>
+    <text x="38" y="82" fill="#e8efe9" font-weight="700">Web UI</text>
+    <text x="38" y="102" fill="#9fb3a7">label · train · eval</text>
+    <rect x="208" y="56" width="160" height="72" rx="8" fill="#1c2620" stroke="#2c3b32"/>
+    <text x="222" y="82" fill="#e8efe9" font-weight="700">FastAPI</text>
+    <text x="222" y="102" fill="#9fb3a7">REST + serves UI</text>
+    <rect x="392" y="56" width="160" height="72" rx="8" fill="#1d6b45"/>
+    <text x="406" y="82" fill="#ffffff" font-weight="700">Trainer (MPS)</text>
+    <text x="406" y="102" fill="#d7e7dc">detect · classify</text>
+    <rect x="576" y="56" width="160" height="72" rx="8" fill="#1c2620" stroke="#2c3b32"/>
+    <text x="590" y="82" fill="#e8efe9" font-weight="700">Registry</text>
+    <text x="590" y="102" fill="#9fb3a7">onnx · mlpackage</text>
+    <rect x="24" y="152" width="344" height="72" rx="8" fill="#1c2620" stroke="#2c3b32"/>
+    <text x="38" y="178" fill="#e8efe9" font-weight="700">SQLite + data/</text>
+    <text x="38" y="198" fill="#9fb3a7">projects · datasets · snapshots · runs</text>
+    <rect x="392" y="152" width="344" height="72" rx="8" fill="#1c2620" stroke="#2c3b32"/>
+    <text x="406" y="178" fill="#e8efe9" font-weight="700">Run directories</text>
+    <text x="406" y="198" fill="#9fb3a7">config · metrics · eval · weights · log</text>
+    <g stroke="#3d5247" stroke-width="2" fill="none">
+      <line x1="184" y1="92" x2="208" y2="92"/>
+      <line x1="368" y1="92" x2="392" y2="92"/>
+      <line x1="552" y1="92" x2="576" y2="92"/>
+      <line x1="288" y1="128" x2="288" y2="152"/>
+      <line x1="472" y1="128" x2="472" y2="152"/>
+    </g>
+  </g>
+  <text x="24" y="262" fill="#9fb3a7" font-size="12">Your images never leave this Mac. No cloud, no queue, no upload.</text>
+</svg>
